@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  justify-content: space-around;
+  @extend .container;
+  padding-top: 36px;
+  &__left, &__right {
+    p {
+      font-size: 16px;
+      padding-bottom: 8px;
+      line-height: 24px;
+    }
+  }
+  &__left {
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+      padding-bottom: 24px;
+    }
+  }
+}

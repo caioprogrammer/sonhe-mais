@@ -1,0 +1,41 @@
+.header {
+  background-color: $primary-color;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 99;
+  transition: ease .5s background-color;
+  @extend .container;
+  &.sticky {
+    background-color: rgba(26, 38, 53, 0.675);
+  }
+  &__logo {
+    img {
+      max-width: 150px;
+    }
+  }
+  &__menu {
+    ul {
+      display: flex;
+      gap: 12px;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    a {
+      svg {
+        fill: #fff;
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}

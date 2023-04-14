@@ -4,6 +4,9 @@
   gap: 32px;
   justify-content: space-around;
   @extend .container;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
   padding-top: 36px;
   &__left, &__right {
     p {

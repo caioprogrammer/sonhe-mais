@@ -11,6 +11,12 @@
   z-index: 99;
   transition: ease .5s background-color;
   @extend .container;
+  &__toggle {
+    display: none;
+    @media screen and (max-width: 768px){
+      display: block;
+    }
+  }
   &.sticky {
     background-color: rgba(26, 38, 53, 0.675);
   }

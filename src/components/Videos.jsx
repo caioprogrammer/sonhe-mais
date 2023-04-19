@@ -14,7 +14,7 @@ const Videos = () => {
     <section className='videos'>
       <div className='videos__items'>
         <div className="iframe">
-          <iframe src="https://player.vimeo.com/video/718381305?h=fe7fd7280a&amp;dnt=1&amp;app_id=122963" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="Website_Video_InfinitamenteMais_PT_BR"></iframe>
+          <iframe src="https://player.vimeo.com/video/718381305?h=fe7fd7280a&amp;dnt=1&amp;app_id=122963" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="Website_Video_InfinitamenteMais_PT_BR"></iframe>
         </div> 
         <div className="carousel">
         <Swiper
